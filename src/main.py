@@ -7,7 +7,7 @@ def stir_the_void():
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="VoidSpoon CLI")
-    parser.add_argument("--stir", action="store true", help="Stir the void")
+    parser.add_argument("--stir", action="store_true", help="Stir the void")
     args = parser.parse_args()
     if args.stir:
         stir_the_void
