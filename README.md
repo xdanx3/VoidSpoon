@@ -5,10 +5,12 @@
 ## Why?
 
 Because sometimes, nothing is exactly what you need.
+But what nothing really is?
 
 ## Usage
 
 Coming soon...
+for now just running - python ./src/main.py
 
 ## License
 [The Unlicense](LICENSE)
