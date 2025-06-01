@@ -10,6 +10,6 @@ if __name__ == "__main__":
     parser.add_argument("--stir", action="store_true", help="Stir the void")
     args = parser.parse_args()
     if args.stir:
-        stir_the_void
+        stir_the_void()
     else:
         print("The void awaits...")
